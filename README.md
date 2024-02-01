@@ -7,5 +7,7 @@ GhostWars is my final project of the course called JavaScript Web Programming, a
 2. Menu
   - Reload: Reload the game.
   - Level: Drop-down menu. Click Easy, Medium, Hard on the menu to adjust the difficulty of the game. 
-  - Theme: The drop-down function can change the game screen scene. There are five scenes including Yard, Mud, Tower, Pool, and Snowing. 
+  - Theme: The drop-down function can change the game screen scene. There are five scenes including Yard, Mud, Tower, Pool, and Snowing.
+
+# 
 ​

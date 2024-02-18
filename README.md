@@ -7,7 +7,7 @@ GhostWars is my final project of the course called JavaScript Web Programming, a
 2. Menu
   - Reload: Reload the game.
    ![vedio](https://github.com/iriszzzz/GhostWars/assets/84706383/64ffebaf-9b1f-48c2-a81c-8dcf06a18e8f)
-![IMAGE ALT TEXT]([<img width="960" alt="gw" src="https://github.com/iriszzzz/GhostWars/assets/84706383/732f486a-5dbd-4bfd-87af-da4fc7e08b95">
+([<img width="960" alt="gw" src="https://github.com/iriszzzz/GhostWars/assets/84706383/732f486a-5dbd-4bfd-87af-da4fc7e08b95">
 ](https://github.com/iriszzzz/GhostWars/assets/84706383/64ffebaf-9b1f-48c2-a81c-8dcf06a18e8f))
 (https://youtu.be/jcBGyMgQowA)
 

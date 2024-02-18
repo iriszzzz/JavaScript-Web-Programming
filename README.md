@@ -7,6 +7,7 @@ GhostWars is my final project of the course called JavaScript Web Programming, a
 2. Menu
   - Reload: Reload the game.
    ![vedio](https://github.com/iriszzzz/GhostWars/assets/84706383/64ffebaf-9b1f-48c2-a81c-8dcf06a18e8f)
+   [![IMAGE ALT TEXT]([http://img.youtube.com/vi/GtlcOowVptU/0.jpg](https://github.com/iriszzzz/GhostWars/assets/84706383/64ffebaf-9b1f-48c2-a81c-8dcf06a18e8f))](https://youtu.be/jcBGyMgQowA)
 
   - Level: Drop-down menu. Click Easy, Medium, Hard on the menu to adjust the difficulty of the game. 
   - Theme: The drop-down function can change the game screen scene. There are five scenes including Yard, Mud, Tower, Pool, and Snowing.

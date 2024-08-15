@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"></meta>
+    <title>GHOST WARS👻</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ghostWars.css"> 
+    <script src="ghostWarsClass.js"></script>
+    <script src="ghostWars.js" defer></script> 
+</head>
+<body id ='body'>
+    <canvas id="canvas"></canvas> 
+    <h1>GHOST</h1> 
+    <h3>✨</h3>
+    <h2>WARS👻</h2>
+   
+    <nav id="nav">       <!--功能表按鍵-->                   
+        <ul>
+            <div class="dropdown">
+                <a><button onclick="reload()" class="dropdown dropbtn">Reload</button></a>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Level</a>
+                    <div class="dropdown-content">
+                        <button onclick="changeLevelToEasy();" class="dropdown dropbtn">Easy</button>
+                        <button onclick="changeLevelToMedium();" class="dropdown dropbtn">Medium</button>
+                        <button onclick="changeLevelToHard()" class="dropdown dropbtn">Hard</button>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Theme</a>
+                    <div></div>
+                    <div class="dropdown-content">
+                        <button onclick="changeBackgroundYard()" class="dropdown dropbtn">Yard</button>
+                        <button onclick="changeBackgroundMud()" class="dropdown dropbtn">Mud</button>
+                        <button onclick="changeBackgroundTower()" class="dropdown dropbtn">Tower</button>
+                        <button onclick="changeBackgroundPool()" class="dropdown dropbtn">Pool</button>
+                        <button onclick="changeBackgroundSnowing()" class="dropdown dropbtn">Snowing</button>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <a href="https://www.google.com.tw/" class="dropbtn">Source</a>
+            </div>
+        </ul>
+    </nav>
+</body>
+</html>

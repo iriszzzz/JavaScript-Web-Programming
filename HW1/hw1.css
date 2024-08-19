@@ -1,0 +1,242 @@
+body{
+    background-color: #fac2ea;
+    font-size: 15pt;
+    font-family: 'Amiri','微軟正黑體';
+    font-weight: 500;
+    margin-top: -10%;
+}
+
+h1{
+    text-align: center;
+    color:rgb(46, 75, 66);
+    font-size: 29pt;
+}
+
+/* 下拉按鈕 */
+.dropbtn{
+    margin: 5px;
+    background-color: rgb(27, 55, 46);
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius:25px;
+}
+
+/*需要定位下拉内容否則會換行*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/*下拉内容，default隱藏 */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background-color: #f9f9f9;
+    min-width: 125px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius:25px;
+    text-align: center;
+}
+
+/* 下拉菜單連接*/
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 滑鼠怡怡上後修改菜單顏色*/
+.dropdown-content a:hover, nav ul li a:hover{
+    background-color: rgb(127, 190, 168);
+    border-radius:25px;
+    color: white;
+}
+
+/* 滑鼠一上去後顯示下拉菜單*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 下拉內容顯示後改變背景色*/
+.dropdown:hover .dropbtn {
+    background-color: rgb(127, 190, 168);
+}
+
+nav{
+    text-align: center;
+    margin-bottom:-50px;
+}
+
+nav ul li{
+    display:inline;
+    background-color: rgb(27, 55, 46);
+    border-radius:25px;
+    padding: 8px 0;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 8px 10px;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+    background-color:#ffee04;
+    color:white;
+}
+
+.album{
+    margin-top:8%;
+    margin-left:18%;
+}
+
+.sect{
+    display: inline-block;
+    margin-top: 0;
+    margin-left:10%;
+    margin-bottom:10%;
+    font-size: 14pt;
+    padding-bottom: 0;
+    line-height: 1.7em;
+}
+
+.section1{
+    margin-top: 40px;
+    left: -20px;
+    font-size: 140%;
+    font-weight:bold;
+}
+
+.moretext{
+    margin-top:-40px;
+    margin-bottom:50px;
+    font-size:2.5em;
+}
+
+.us{
+    position:relative;
+    left: 100px;
+}
+
+.doggie{
+    display: inline-block;
+    position:relative;
+    margin-left: 65px;
+    margin-bottom: 35px;
+}
+
+.quote1{
+    font-size: 120pt;
+    display: inline-block;
+    position:relative;
+    top: -290px;
+    left: -3%;
+    color: white;
+}
+
+.quote2{
+    font-size: 90pt;
+    display: inline-block;
+    position:relative;
+    top: -370px;
+    left: 65%;
+    color: white;
+}
+
+.gif{
+    display: block;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caption{
+    position:relative;
+    margin-top: 10%;
+    margin-bottom: -1%;
+    font-size: 40pt;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px){
+    .quote1, .quote2{
+        display: none;
+    }
+    .gif{
+        display: block;
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .album{
+        display: block;
+        text-align: center;
+    }
+
+    .sect{
+        display: block;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .us{
+        text-align: center;
+    }
+
+    .doggie{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px){
+    nav{
+        text-align: unset;
+    }
+    .caption{
+        margin-top: 20%;
+        margin-bottom: -3%;
+    }
+    
+    .dropdown{
+        text-align: center;
+        display: block;
+        margin: 5px 130px;
+    }
+    .album{
+        margin-top: 20%;
+        display: block;
+        text-align: center;
+    }
+
+    .sect{
+        display: block;
+    }
+
+    .caption{
+        margin-top:10%;
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        margin: 5px 135px;
+        position: relative;
+        background-color: rgb(27, 55, 46);
+        border-radius: 25px;
+        padding: 0;
+    }
+}

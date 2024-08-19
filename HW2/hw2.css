@@ -1,0 +1,64 @@
+table, td{
+    margin: auto;
+    border: solid 2px rgb(255, 255, 255);
+}
+
+h1{     /*標題陰影部分*/
+    text-align: center;
+    font-size:80px;
+    color:rgb(255, 184, 240);
+}
+
+h2{
+    margin-top:-13.5%;
+    margin-left: 1%;
+    text-align: center;
+    font-size:80px;
+    color:rgb(110, 239, 253);
+}
+
+body{
+    width:70em;
+    margin:auto;
+}
+
+div{
+    border-style: dotted;
+}
+
+table{
+    width: 16em;
+    float:left;
+}
+
+table:nth-of-type(4n+1){
+    clear:both;
+}
+
+td{
+    font-size: 1.7em;
+    text-align: center;
+    font-family:Cambria;
+}
+
+tr th{
+    background-color: rgba(134, 231, 238, 0.804);
+    color:  white;
+    font-size: 1.2em;
+}
+
+tr:not(:first-child) td:first-child{    /*Sunday*/
+    color: rgb(255, 148, 191);
+}
+
+tr:not(:first-child) td:last-child{     /*Saturday*/
+    color: rgb(64, 141, 235);
+}
+
+img{
+    margin-top:-50%;
+    display:block;
+    margin:auto;
+    width: 800px;
+    margin-bottom: -18%;
+}

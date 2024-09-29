@@ -5,7 +5,6 @@
 
 ## :memo: Slide& Note
 
-### Quick views : 
 
 | Chapter | Content  | Link |
 | ------------ |:-------- |:-------- |
